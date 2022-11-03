@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Engineering</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav {
+            width: 100%;
+            height: 75px;
+        }
+
+        .logo,
+        .logo2 {
+            height: 55px;
+            width: auto;
+            margin: 10px;
+        }
+
+        .logo2 {
+            float: right;
+            margin-right: 20px;
+        }
+
+        .container {
+            height: 1000px;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+
+        .sec1 {
+            height: 700px;
+            width: 75%;
+        }
+
+        .sec2 {
+            height: 700px;
+            width: 20%;
+        }
+        .subsec{
+            display: flex;
+            justify-content: space-between;
+        }
+        .subsec p{
+            font-size: 15px;
+        }
+        .subsec1{
+            width: 250px;
+            height: auto;
+            margin-left: 40px;
+        }
+        .subsec2{
+            width: 580px;
+            height: auto;
+        }
+
+        .container .sec1 ul {
+            display: flex;
+        }
+
+        .container .sec1 ul li a {
+            text-decoration: none;
+            color: red;
+        }
+
+        .container .sec1 ul li a:hover {
+            color: blue;
+        }
+
+        .heading {
+            height: 80px;
+            font-size: 15px;
+            background-color: orange;
+            color: aliceblue;
+            padding-left: 50px;
+            padding-top: 1px;
+        }
+
+        .card {
+            height: 405px;
+            width: 240px;
+            text-align: center;
+            /* border: 1px solid black; */
+            box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.348);
+        }
+
+        .card img {
+            border-radius: 50px;
+            height: 100px;
+            width: 100px;
+        }
+
+        table {
+            margin-top: 20px;
+            /* margin-left: 30px; */
+            width: 220px;
+            height: 250px;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        table tbody tr td {
+            font-size: 14px;
+            padding: 8px;
+            height: 1px;
+            text-decoration: none;
+            border: 1px solid black;
+        }
+
+        table tbody tr td a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .sec2 img{
+            margin-top:30px;
+            border: 1px solid rgba(0, 0, 0, 0.584);
+        }
+
+        .links{
+            background-color: rgba(255, 166, 0, 0.482);
+            width: 94.7%;
+            height: 350px;
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+            padding: 40px;
+            margin-top: 40px;
+        }
+
+        .links ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+
+        footer {
+            /* height: 50px; */
+            width: 100%;
+            padding-bottom: 9px;
+            padding-top: 5px;
+            background-color: orange;
+            color: aliceblue;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="https://snjcoe.sandipfoundation.org/images/header-logo.png" alt="SF Logo" class="logo">
+        <img src="https://images.collegedunia.com/public/college_data/images/logos/1475663565Logo1.png" alt="SITRC Logo"
+            class="logo2">
+    </nav>
+    <hr>
+    <ul style="list-style-type:disc;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutSITRC.html">About SITRC</a></li>
+        <li><a href="Courses.html">Courses</a></li>
+        <li><a href="Eligibility.html">Eligibility</a></li>
+        <li><a href="AdmissionProcedure.html">Admission Procedure</a></li>
+        <li><a href="ResearchCenter.html">Reseach Center</a></li>
+        <li><a href="Facility.html">Facility</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+    </ul>
+
+    <div class="heading">
+        <h1>Computer Engineering</h1>
+    </div>
+
+
+    <!-- links  -->
+    <div class="container">
+        <div class="sec1">
+            <p>
+            <ul style="list-style-type:none; color: red;">
+                <li><a href="#">Home</a></li>&nbsp;| &nbsp;
+                <li><a href="#">Vision and Mission</a></li>&nbsp;| &nbsp;
+                <li><a href="#">PEO, PO & PSO</a></li>&nbsp;| &nbsp;
+                <li><a href="#">Publications</a></li>&nbsp;| &nbsp;
+                <li><a href="#">Alumni</a></li>&nbsp;| &nbsp;
+                <li><a href="#">Association</a></li>&nbsp;| &nbsp;
+                <li><a href="#">TimeTable</a></li>&nbsp;| &nbsp;
+                <li><a href="#">Achievments</a></li>&nbsp;| &nbsp;
+            </ul>
+            <ul style="list-style-type:none; color: red;">
+                <li><a href="#">Placements</a></li>&nbsp;| &nbsp;
+                <li><a href="#">Social Activities</a></li>&nbsp;| &nbsp;
+                <li><a href="#">Research Pojects</a></li>&nbsp;| &nbsp;
+                <li><a href="#">Funds & Grants</a></li>&nbsp;| &nbsp;
+                <li><a href="#">Participation</a></li>&nbsp;| &nbsp;
+            </ul>
+            </p>
+
+            <div class="subsec">
+                <!-- card  -->
+                <div class="subsec1">
+                    <div class="card">
+                        <h4 style="background-color:rgb(115, 20, 187); color:aliceblue; padding: 6px;">Contact
+                            Information</h4>
+                        <img src="data:image/jpeg;base64,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"
+                            alt="">
+                        <h4 style="color:rgb(115, 20, 187); line-height: 20px;"><b>Dr. Amol D Potgantwar</b><br>Head
+                        </h4>
+                        <h5>Department of Computer <br>
+                            Science & Engineering</h5>
+                        <h5>&#128241; 9545453208 <br>
+                            &#128231; amol.potgantwar@sitc.org</h5>
+                        <button style="background-color:rgb(115, 20, 187); color: aliceblue; width: 150px; padding: 6px; border-radius: 15px; border-color: white;">Meet our Faculty</button>
+                    </div>
+                </div>
+                <div class="subsec2">
+                    <p>The Computer Engineering Department at the Sandip Institute of Technology and Research Centre
+                        affiliated to Savatribai Phule Pune University, Pune offers at engineering programs leading to
+                        the degree of Bachelor of Engineering (B.E) and Master of Engineering (M.E.) in Computer
+                        Engineering which is NBA accredited from 2020-21 to 2022-23. This is the highest and prestigious
+                        accreditation of the nation acquired as on date by only few program in the jurisdiction of the
+                        University, North Maharashtra region as well as the nation. Department had established in the
+                        academic year 2008-2009.</p>
+                    <p>The changing development scenario and IT industry expansions are creating increasing growth
+                        opportunities for a Computer Engineering professional. Keeping an eye on the prospects, the
+                        Department of Computer Engineering is prepared to meet the future challenges. It is playing a
+                        leadership role in shaping the education of the 21st Century by providing unique educational and
+                        research opportunities in the forefront of Computer Engineering.</p>
+                    <p>The changing development scenario and IT industry expansions are creating increasing growth
+                        opportunities for a Computer Engineering professional. Keeping an eye on the prospects, the
+                        Department of Computer Engineering is prepared to meet the future challenges. It is playing a
+                        leadership role in shaping the education of the 21st Century by providing unique educational and
+                        research opportunities in the forefront of Computer Engineering</p>
+                    <h5>Computer Engineeringat SITRC</h5>
+                    <p>The Department has 11 labs: Programming Lab, Computer Design Lab, Computer Graphics Lab, Hardware
+                        Lab, Computer Network Lab, Software Lab, Digital Electronics Lab, Project Lab and PG Lab. CUDA
+                        Teaching Center and Bigdata Lab</p>
+                    <p>Computer engineering department believes in regular student industry interface and thereby
+                        consistently organizes many seminars, workshops and guest lectures by eminent personalities in
+                        the IT field.</p>
+                    <h5>Objectives</h5>
+                    <ol type="1">
+                        <li>To provide sound knowledge of computing principles and their applications in scientific and
+                            engineering domains</li>
+                        <li>To develop students' ability to analyze problem scenarios and evolve solutions involving
+                            selected areas of computing</li>
+                        <li>To expose students to principles and practices of design and development of computing
+                            systems</li>
+                        <li>To enable students to identify new computing trends and understand emerging
+                            technologies</li>
+                        <li>To enable students to gain the ability to identify, formulate, and solve challenging
+                            problems both in hardware and software systems.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec2">
+            <table>
+                <thead>
+                    <th
+                        style="background-color:orange; height: 35px; text-align: left; padding-left: 10px; font-size: 18px;">
+                        Latest Update</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">Hamipatra</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Scholorship Notice</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Global Certification Course</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">SE to BE Admission Notice</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/National_Board_of_Accreditation.svg/1200px-National_Board_of_Accreditation.svg.png" width="218px" height="150px" alt="">
+
+            <table style="margin-top:30px;">
+                <thead>
+                    <th
+                        style="background-color:orange; height: 35px; text-align: left; padding-left: 10px; font-size: 18px;">
+                        About SITRC</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">Faculty</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Course Structure</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Laboratory</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Syllabus</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Results</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Events</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Academic Calendar</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Newsletter</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Activity Plan</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- links  -->
+    <div class="links">
+        <div class="linksec">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="#">Student Satisfaction Survey (SSS)</a></li>
+                <li><a href="#">Syllabus</a></li>
+                <li><a href="#">Institutional Events</a></li>
+                <li><a href="#">Student Scholarship List</a></li>
+                <li><a href="#">NPTEL</a></li>
+                <li><a href="#">Faculty Welfare</a></li>
+                <li><a href="#">Audit Reports</a></li>
+                <li><a href="#">Core Values</a></li>
+                <li><a href="#">Code Of Conduct</a></li>
+                <li><a href="#">NAAC Visit Video</a></li>
+                <li><a href="#">Code of Ethics</a></li>
+                <li><a href="#">Annual Report</a></li>
+            </ul>
+        </div>
+        <div class="linksec">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">UG Courses</a></li>
+                <li><a href="#">PG Courses</a></li>
+                <li><a href="#">Copyrights</a></li>
+                <li><a href="#">NIRF</a></li>
+                <li><a href="#">workshop</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">NSS</a></li>
+                <li><a href="#">IQCA</a></li>
+                <li><a href="#">Procedures For Maintenance</a></li>
+                <li><a href="#">Fees Details (UG)/(PG)</a></li>
+                <li><a href="#">Human Resource Manual</a></li>
+            </ul>
+        </div>
+        <div class="linksec">
+            <h2>Info</h2>
+            <ul>
+                <li><a href="#">Placement</a></li>
+                <li><a href="#">DTE Code</a></li>
+                <li><a href="#">E-bulletin</a></li>
+                <li><a href="#">Mandatory Disclosure of AY 2020-21</a></li>
+                <li><a href="#">Notices</a></li>
+                <li><a href="#">Values And Best Practices</a></li>
+                <li><a href="#">Committees</a></li>
+                <li><a href="#">Student Development</a></li>
+                <li><a href="#">Facilities at SITRC</a></li>
+                <li><a href="#">Online Grievance</a></li>
+                <li><a href="#">Performance Appraisal form</a></li>
+                <li><a href="#">Vidyalaxmi Educational Loan Scheme</a></li>
+            </ul>
+        </div>
+        <div class="linksec">
+            <h2>Contact Us</h2>
+            <p><b>Nashik Campus</b> <br>
+            Trimbak Road, Nashik Maharashtra,
+                India.</p>
+            <p><b>Corporate Office</b> <br> Manisha Pride, First Floor J.N. Road <br> Mulund (W) Mumbai:400080</p>
+            <p><b>Toll Free No:</b> 18002332714</p>
+            <p><b>Email:</b> info@sandipfoundation.org</p>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <p>Sandip Foundation Copyright &#169; 2022. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
